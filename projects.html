@@ -1,9 +1,19 @@
 ---
-layout: projects
+layout: default
 ---
 
 
-<p>{% for page in site.pages %}
-  {{page.content}}
-  {% endfor %}
+{% for proj in site.projects %}
+<p>
+<h1>
+  {{proj.title}}
+</h1>
+{{proj.dates}}<br />
+{{proj.point-person}}
+
+{{proj.content}}
+
 </p>
+
+{% endfor %}
+

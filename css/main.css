@@ -1,6 +1,7 @@
 body{
   font-family: 'Helvetica',sans-serif;
   font-size: 14pt;
+  line-height: 130%;
   width: 90%;
   margin: 0 auto;
   background-color: white;
@@ -14,12 +15,32 @@ a:hover{
   color: red;
 }
 
+p{
+  margin: 10px 0px;
+}
+
+h1{
+  font-size: 20pt;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+h2{
+  text-decoration: underline;
+}
+
 #header{
   font-family: serif;
   font-size: 30px;
   font-weight: bold;
   width: 100%;
   margin: 10px 0px;
+}
+#header a{
+  color: black;
+}
+#header a:hover{
+  color: black;
 }
 
 #nav{

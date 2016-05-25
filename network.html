@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+
+{% for person in site.people %}
+<p>
+<h1>
+  {{person.title}}
+</h1>
+{{person.contact}}<br />
+
+{{proj.content}}
+
+</p>
+
+{% endfor %}

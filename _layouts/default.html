@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+  {% include meyer_reset.html %}
+  {% include css.html %}
 
   <body>
 
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+    <div id="header">
+      MAKE @ BROWN
+    </div>
+    <div id="nav">
+      <a href="about.html">About</a> | <a href="networks.html">Network</a> | <a href="projects.html">Projects</a> | <a href="resources.html">Resources</a>
     </div>
 
-    {% include footer.html %}
+    {{ content }}
 
   </body>
 

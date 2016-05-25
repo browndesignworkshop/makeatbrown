@@ -1,0 +1,29 @@
+body{
+  font-family: 'Helvetica',sans-serif;
+  font-size: 14pt;
+  width: 90%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+a{
+  text-decoration: none;
+  color: #0066ff;
+}
+a:hover{
+  color: red;
+}
+
+#header{
+  font-family: serif;
+  font-size: 30px;
+  font-weight: bold;
+  width: 100%;
+  margin: 10px 0px;
+}
+
+#nav{
+  width: 100%;
+  background-color: rgba(0,0,1,0.2);
+  padding: 4px;
+}

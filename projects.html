@@ -1,5 +1,9 @@
 ---
-layout: default
+layout: projects
 ---
 
 
+<p>{% for page in site.pages %}
+  {{page.content}}
+  {% endfor %}
+</p>

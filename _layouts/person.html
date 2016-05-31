@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html>
 
-{% include css.html %}
+  {% include css.html %}
 
   <body>
 
     {% include header.html %}
 
-    <div class="content half_width">
-      {{ content }}
+    <div class="content">
+
+      <div class="half_width">
+        <h1>
+          {{ page.title }}
+        </h1><br />
+        {{page.contact}}<br />
+        {{ content }}
+      </div>
+      <div class="half_width">
+        <img src="{{ page.imgurl }}" />
+      </div>
     </div>
 
   </body>

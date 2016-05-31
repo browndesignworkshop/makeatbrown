@@ -19,6 +19,10 @@ p{
   margin: 10px 0px;
 }
 
+img{
+  max-width: 100%;
+}
+
 h1{
   font-size: 20pt;
   font-weight: bold;
@@ -29,6 +33,16 @@ h2{
   text-decoration: underline;
 }
 
+.center{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.projectsimg{
+  width: 500px;
+}
+
+/* HEADER & NAV STUFF */
 #header{
   font-family: serif;
   font-size: 30px;
@@ -49,9 +63,20 @@ h2{
   padding: 4px;
 }
 
+
+/* FOR PROJECT & PERSON PAGES */
 .content{
   margin: 15px auto;
+  min-width: 500px;
 }
 .full_width{
   width: 95%;
 }
+.half_width{
+  width: 40%;
+  margin-right: 5%;
+  display: inline-block;
+  clear: both;
+}
+
+

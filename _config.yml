@@ -15,8 +15,10 @@ url: "http://browndesignworkshop.org" # the base hostname & protocol for your si
 twitter_username: jekyllrb
 github_username:  jekyll
 collections:
-- projects
-- people
+  projects:
+    output: true
+  people:
+    output: true
 
 # Build settings
 markdown: kramdown

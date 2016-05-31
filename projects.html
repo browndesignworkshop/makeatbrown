@@ -3,17 +3,18 @@ layout: default
 ---
 
 
-{% for proj in site.projects %}
-<p>
-<h1>
-  {{proj.title}}
-</h1>
-{{proj.dates}}<br />
-{{proj.point-person}}
+  {% for proj in site.projects %}
+<div class="half_width">
+  <h1>
+    <a href="{{proj.url}}">{{proj.title}}</a>
+  </h1>
+  {{proj.dates}}<br />
 
-{{proj.content}}
-
-</p>
+  {{proj.content}}
+</div>
+<div class="half_width center projectsimg">
+  <img src="{{ proj.imgurl }}" />
+</div>
 
 {% endfor %}
 

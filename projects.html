@@ -6,14 +6,14 @@ layout: default
   {% for proj in site.projects %}
 <div class="half_width">
   <h1>
-    <a href="{{proj.url}}">{{proj.title}}</a>
+    <a href="{{proj.url | prepend: site.github.url}}">{{proj.title}}</a>
   </h1>
   {{proj.dates}}<br />
 
   {{proj.content}}
 </div>
 <div class="half_width center projectsimg">
-  <img src="{{ proj.imgurl }}" />
+  <img src="{{ proj.imgurl | prepend: site.github.url}}" />
 </div>
 
 {% endfor %}
